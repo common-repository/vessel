@@ -1,0 +1,54 @@
+.vessel-header {
+    margin-top: 0;
+    max-width: unset;
+}
+
+.vessel-logo {
+    display: inline-block;
+    width: 45%;
+}
+
+.vessel-logo small {
+    padding-left: 10px;
+    vertical-align: super;
+}
+
+.vessel-header-right {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    vertical-align: super;
+}
+
+.vessel-header-right a {
+    margin-left: 25px;
+}
+
+.vessel-button-wrapper {
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.vessel-button-wrapper > span {
+    color: grey;
+    font-size: .7em;
+    display: block;
+}
+
+.vessel-button-row {
+    text-align: center;
+}
+
+div.vessel-card {
+    text-align: center;
+    padding: 30px;
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.vessel-button {
+    background-color: greenyellow;
+}

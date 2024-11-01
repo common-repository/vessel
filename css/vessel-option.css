@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+  }
+
+.options-ui {
+    margin-top: 20px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-top: 0;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.tab {
+    float: left;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.tabcontent-ui {
+    float: left;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    border-right: 0;
+    background: #fff;
+    padding: 15px 30px;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+@media (min-width: 1400px){
+.vessel-video {
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+.option-links{
+    width: 45%;
+    margin-left: 30px;
+    float: right;
+}
+
+.server-report {
+    width: 45%;
+    float: right;
+    margin-left: 30px;
+}
+
+}
+
+.vessel-video {
+    margin-top: 1.25em;
+}
+
+.option-links{
+    width: 45%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.server-report {
+    width: 45%;
+    display: inline-block;
+}
+
+.contact-input {
+    padding: 8px 10px;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 45%;
+}
+
+.contact-website {
+    padding: 8px 10px;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.contact-textarea {
+    padding: 8px 10px;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 200px;
+}

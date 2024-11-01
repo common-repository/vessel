@@ -1,0 +1,4 @@
+/*
+This redirects cached versions of the plugin (before v1.0.0) to go get the css from the server
+*/
+@import url("https://wzgd-central.com/static/css/vessel.css");
